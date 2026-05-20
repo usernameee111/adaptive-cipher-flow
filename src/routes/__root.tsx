@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "pro" },
+      { name: "description", content: "Adaptive Veil is a futuristic AI research platform for advanced image steganography." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "pro" },
+      { property: "og:description", content: "Adaptive Veil is a futuristic AI research platform for advanced image steganography." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "pro" },
+      { name: "twitter:description", content: "Adaptive Veil is a futuristic AI research platform for advanced image steganography." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/873ee0c8-5c8e-44b2-b70e-3ff7f74a5eae/id-preview-a7820f76--09817c74-a937-41b4-82ec-612c01b0d64b.lovable.app-1779246816165.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/873ee0c8-5c8e-44b2-b70e-3ff7f74a5eae/id-preview-a7820f76--09817c74-a937-41b4-82ec-612c01b0d64b.lovable.app-1779246816165.png" },
     ],
     links: [
       {
