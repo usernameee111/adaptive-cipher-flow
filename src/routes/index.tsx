@@ -4,8 +4,10 @@ import { CursorGlow } from "@/components/CursorGlow";
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
 import { Problem } from "@/components/Problem";
+import { Upload } from "@/components/Upload";
 import { Simulation } from "@/components/Simulation";
-import { Architecture } from "@/components/Architecture";
+import { ArchitectureFlow } from "@/components/ArchitectureFlow";
+import { Networks } from "@/components/Networks";
 import { Fuzzy } from "@/components/Fuzzy";
 import { Models } from "@/components/Models";
 import { Metrics } from "@/components/Metrics";
@@ -32,8 +34,10 @@ function Index() {
       <Nav />
       <Hero />
       <Problem />
+      <Upload />
+      <Networks />
+      <ArchitectureFlow />
       <Simulation />
-      <Architecture />
       <Fuzzy />
       <Models />
       <Metrics />
