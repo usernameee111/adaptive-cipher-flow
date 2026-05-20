@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const links = [
-  { href: "#simulation", label: "Simulation" },
+  { href: "#upload", label: "Upload" },
+  { href: "#networks", label: "Networks" },
   { href: "#architecture", label: "Architecture" },
-  { href: "#fuzzy", label: "Fuzzy Logic" },
-  { href: "#models", label: "Models" },
+  { href: "#simulation", label: "Simulation" },
   { href: "#metrics", label: "Metrics" },
   { href: "#team", label: "Team" },
 ];
