@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const links = [
-  { href: "#simulation", label: "Simulation" },
+  { href: "#upload", label: "Upload" },
+  { href: "#networks", label: "Networks" },
   { href: "#architecture", label: "Architecture" },
-  { href: "#fuzzy", label: "Fuzzy Logic" },
-  { href: "#models", label: "Models" },
+  { href: "#simulation", label: "Simulation" },
   { href: "#metrics", label: "Metrics" },
   { href: "#team", label: "Team" },
 ];
@@ -34,7 +34,7 @@ export function Nav() {
             </li>
           ))}
         </ul>
-        <a href="#simulation" className="group relative overflow-hidden rounded-xl px-4 py-2 text-sm font-medium" style={{ background: "var(--grad-primary)" }}>
+        <a href="#upload" className="group relative overflow-hidden rounded-xl px-4 py-2 text-sm font-medium" style={{ background: "var(--grad-primary)" }}>
           <span className="relative z-10">Launch</span>
           <span className="absolute inset-0 -translate-x-full bg-white/20 transition-transform duration-500 group-hover:translate-x-0" />
         </a>
